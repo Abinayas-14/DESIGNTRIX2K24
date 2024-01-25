@@ -1,0 +1,154 @@
+
+		h1{
+			color:white;
+			font-size: 45px;
+		}
+		.page4{
+			height: 100%;
+			display: grid;
+			place-items: center;
+			overflow: hidden;
+			padding: 1.1rem 0;
+		}
+		.page5{
+			height: 100%;
+			display: grid;
+			place-items: center;
+			overflow: hidden;
+			padding: 1.5rem 0;
+		}
+		.events
+		{
+			padding-bottom: 40px;
+		}
+		.container{
+			padding:0px 40px;
+			padding-bottom: 60px;
+			display:flex;
+			align-items:center;
+			justify-content: space-between;
+			text-align: center;
+		}
+		.container1{
+			padding:0px 40px;
+			padding-bottom: 60px;
+			display:flex;
+			align-items:center;
+			justify-content: space-between;
+			text-align: center;
+		}
+		
+		.card1{
+			height: 290px;
+			max-width:350px;
+			margin: 0 20px;
+			backdrop-filter:blur(30px);
+            background-color: rgba(255,255,255,0.1);
+            box-shadow: 0 1px 12px rgba(0,0,0,0.25);
+            border:1px solid rgba(255,255,255,0.3);
+     
+			transition: 0.4s;
+		
+		}
+	
+		.card1:hover{
+			height: auto;
+			transform: scale(1.0);
+            border-radius: 20px;
+            border: 3px solid #D5991F;
+            outline-offset: 15px;
+            transition: all .2s;
+            transition-behavior: normal;
+            transition-duration: 0.2s;
+            transition-timing-function: ease;
+            transition-delay: 0s;
+            transition-property: all;
+            z-index: 10;
+            outline: 5px solid #D5991F;
+
+		}
+
+		img{
+			width: 344px;
+			height: 288px;
+		}
+		.card1 img:hover
+		{
+			border-radius: 20px 20px 0 0;
+		}
+		.card1.img1{
+			display:block;
+			height:100%;
+			width: 100%;
+			 object-fit: contain;
+  			object-position: center;
+  			max-width: 300px !important;
+            max-height: 300px
+		}
+		
+		
+		.card1 .name1{
+			padding:5px;
+			font-size: 25px;
+			font-weight:600;
+			color: white;
+		}
+		
+		.card1 .text1{
+
+			padding:0 15px 15px 15px;
+			font-size: 20px;
+			font-weight:300;
+			color: white;
+			text-align: justify;
+
+			opacity: 0;
+			visibility: hidden;
+			transition: 0.1s;
+		}
+		
+		.card1:hover .text1{
+			opacity: 1;
+			visibility: visible;
+		}
+
+		@media screen and (max-width:1080px){
+			.page5{
+				
+				padding-bottom: 15rem;
+			}
+			h1{
+			font-size: 80px;
+		}
+			.container{
+				flex-wrap: wrap;
+				flex-direction: column;
+				
+			}
+			.container1{
+				flex-wrap: wrap;
+				flex-direction: column;
+				
+			}
+			.card1{
+			height: 550px;
+			max-width:680px;
+			margin:100px 70px;
+			}
+			.card1:hover{
+			height: auto;
+
+		}
+			img{
+			width: 680px;
+			height: 640px;
+		}
+		.card1 .name1{
+			font-size: 50px;
+		}
+		.card1 .text1{
+			font-size: 40px;
+		}
+			
+		}
+		

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Designtrix</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="second.css">
+<link rel="stylesheet" type="text/css" href="third.css">
+<link rel="stylesheet" type="text/css" href="events.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="location.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+
+<style>
+  @media(max-width:1080px){
+    .reload{
+      padding-top: 700px;
+    }
+    .reload img{
+      /* margin-top: 1000px; */
+      width: 100%;
+      height: 110%;
+    }
+  }
+  .reload img{
+
+    /* display: block; */
+     height: 100%; 
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+</style>
+</head>
+<body onload="showPage()">
+  <script>
+    // const htmlElement=`<div id="video"><div class="container">
+    //   <div class="flame">
+    //     <h1><span>DESIGNTRIX '24</span></h1>
+    //   </div>
+    // </div></div>`
+    const showPage=()=>{
+      const htmlElement=`<img src="./vid1.gif" class="gif-img">`
+      document.getElementById('reload').innerHTML=htmlElement
+      document.getElementById('reload').style.display=''
+      document.getElementById('fullPage').style.display='none'
+      document.body.style.overflowX='hidden'
+      document.body.style.overflowY='hidden'
+      document.body.style.backgroundColor='black'
+      setInterval(mainPage,3000)
+    }
+    const mainPage=()=>{
+      // window.scrollTo(0,0)
+      document.body.style.backgroundColor='rgba(30,16,51)'
+      document.body.style.overflowX='hidden'
+      document.body.style.overflowY='hidden'
+      document.getElementById('reload').style.display='none'
+      document.body.style.overflowY='scroll'
+      document.body.style.overflowX='scroll'
+      document.getElementById('fullPage').style.display=''
+    }
+  </script>
+   <section class="reload" id="reload" style="margin-top: -10px; margin-left: -8px;margin-right: -10px; " >
+    
+  </section> 
+  <section id="fullPage">
+<section class="page1">
+	<div id="bg">
+        <canvas></canvas>
+        <canvas></canvas>
+        <canvas></canvas>
+    </div>
+    <header>
+        <span class="logo"><img src="./assets/RMK_Engineering_College.gif"><span id="clg-name">RMK<br> Engineering<br> College</span></span>
+        <nav class="links">
+            <a href="#page2">ABOUT US</a>
+            <a href="#page3">NOTIFY</a>
+            <a href="#events">EVENTS</a>
+            <a href="#page4">CONTACT US</a>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu(this)">
+          <div class="dash1"></div>
+          <div class="dash2"></div>
+          <div class="dash3"></div>
+          <ul class="menu">
+          <li><a href="#page2">ABOUT US</a></li>
+            <li><a href="#page3">NOTIFY</a></li>
+           <li> <a href="#events">EVENTS</a></li>
+           <li><a href="#page4">CONTACT US</a></li>
+           
+          </ul>
+        </div>
+
+    </header>
+    
+        <section class="center-content">
+            <div class="name">
+
+                <svg viewBox="0 0 1320 300">
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                        DESIGNTRIX'24
+                    </text>
+                </svg>
+                
+            </div>
+            <div class="dept">
+                
+                    <div class="word"></div>
+                
+                
+            </div>
+            <div class="timer">
+                <div id="flipdown" class="flipdown"></div>
+              </div>
+               
+                <a id="button" href="https://bit.ly/designtrix24">Register</a>
+            
+            
+           
+        </section>
+    
+</section>
+
+<section class="page2" id="page2" >
+<center><h1 class="sub-title" data-aos="fade-up">ABOUT US</h1></center>
+
+    <div class="row">
+
+        <div class="group1" data-aos="fade-right">
+            <img class="image8" src="https://www.rmkec.ac.in/2023/wp-content/uploads/2023/05/sathyam-IV.jpg">
+            <img class="image9" src="./assets/sec.jpeg">
+            <img class="image10" src="./assets/mind.jpeg">
+        </div>
+        <div class="about-col-2" data-aos="fade-left">
+            
+            <br>
+            <br>
+            <p style="text-align: justify;color: white;font-size: 25px;backdrop-filter:blur(20px);
+        background-color: rgba(255,255,255,0.2);
+        box-shadow: 0 1px 12px rgba(0,0,0,0.25);
+        border:1px solid rgba(255,255,255,0.3);padding: 30px;border-radius: 20px;">This event is being conducted by Computer Science and Design Department of RMK Engineering College.The
+                Department of Computer Science and Design was established in the year 2021, with Mindtree as its
+                knowledge partner to offer an industry relevant program.
+                professional and ethical graduates, proficient of meeting challenges in the field of Computer Science
+                and Design through effective teaching learning process and Industry Institute interaction.</p>
+        </div>
+    </div>
+    
+	
+</section>
+<section class="page3" id="page3">
+	<div class="ded">
+     <center><h2 class="not" data-aos="fade-up">NOTIFY</h2></center>
+     <div class="content" data-aos="fade-up">
+     	<div class="content-1">
+     		<h3>Bus Route</h3>
+     		<p>No need to worry about the commute – we've got you covered! Hop on board our competition express for a hassle-free journey. Your ride to success starts with us!</p>
+     		<a href="https://drive.google.com/file/d/1oSuYB0XAL_7lzX5FdQrU5wf1UE8zPWSP/view?usp=sharing">Routes</a>
+     	</div>
+     	<div class="content-1">
+     		<img  src="den.gif" width="300">
+     		<h3>Electrifying Rewards</h3>
+     		<p>Competitors, assemble! The stage is set, the challenge is on, and the awards are ready for new champions. Will you be the one to claim the prize? Enter the competition now! </p>
+     	</div>
+     	<div class="content-1">
+     		<h3>Norms</h3>
+     		<p>Attention bright minds! It's time to outshine the ordinary. Clean shaves, formal dresscode and shoes that make a statement. Who said brains can't be stylish?</p>
+     		<a href="https://drive.google.com/file/d/1nsx3Tf0Cc_iH-ORfzyM-BshhhsL0OM1j/view?usp=sharing">Rules</a>
+     	</div>
+     </div>
+ </div>
+
+</section>
+
+<section class="page4" id="events">
+  <h1 class="events" data-aos="fade-up">EVENTS</h1>
+  <div class="container" data-aos="fade-up">
+
+    <div class="card1">
+    <div class="img1">
+      <img src="code1.jpeg">
+    </div>
+    
+      <div class="name1">CODEPOD
+</div>
+        <br>
+
+      <div class="text1">Dive into a coding frenzy with three tiers of questions – easy, medium, and hard – each demanding your programming prowess. Can you crack the code in just 30 minutes? Join us for an exhilarating coding experience </div>
+  
+    </div >
+  <div class="card1">
+    <div class="img1">
+      <img src="quiz.jpg">
+    </div>
+
+      <div class="name1">ADAPTO TALKS
+</div>
+      <br>
+      <div class="text1">Bell rings, unleash advantages with flair. Bell again, unravel the pitfalls with precision. Navigate the rhythm, own the stage – a dynamic spectacle of insightful highs and challenging lows. Every ring, a new verbal twist awaits! </div>
+  </div >
+
+    <div class="card1">
+    <div class="img1">
+      <img src="pp.jpg">
+    </div>
+    
+      <div class="name1">NANONEX
+</div>
+      
+    <br>
+      <div class="text1">Join our paper presentation sessions – a concise knowledge exchange in 3-minute talks, followed by a 2-minute Q&A. Engage in insightful discussions with fellow participants. Elevate your research impact today! </div>
+    
+    </div >
+
+  </div>
+
+
+</section>
+<br>
+<br>
+<section class="page5">
+<div class="container1" data-aos="fade-up">
+
+    <div class="card1">
+    <div class="img1">
+      <img src="uiux.jpg">
+    </div>
+    
+      <div class="name1">DESIGNOID</div>
+        <br>
+
+      <div class="text1">A technical event where the participans must create their prototype .The event will have a time duration of one hour.
+        The judges will evaluate each prototype and the winner will be decided based on the evaluation..</div>
+  
+    </div >
+  <div class="card1">
+    <div class="img1">
+      <img src="cc.jpg">
+    </div>
+
+      <div class="name1">CONNEXTION
+</div>
+      <br>
+      <div class="text1">Embark on a visual journey at Connexion, where participants decode the language of images to unveil a hidden word. Engage your creativity and unravel the clues to connect the dots. 
+        Join us for an intellectually stimulating event where every picture paints a linguistic masterpiece </div>
+  </div >
+
+    
+
+  </div>
+
+
+  
+</section>
+
+
+<section class="final" id="page4">
+  <center><h2 class="find" data-aos="fade-up">WHERE TO FIND US</h2></center>
+  <br>
+  <br>
+<div class="carousel-container" data-aos="fade-right">
+<div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.8974765710764!2d80.13852997414396!3d13.356650606321335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d807de229f987%3A0x11cc13e2927bfabc!2sR.M.K.%20Engineering%20College!5e0!3m2!1sen!2sin!4v1695715861209!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+<div class="add-det">
+    <p class="det">Address</p>
+    <p class="det1">
+    R.M.K Engineering College
+    <br>
+    RSM Nagar, Kavaraipettai - 601 206.
+    </p>
+    <p class="det">Phone</p>
+    <p class="det1">
+       <a>044 - 44 6790 6710</a>
+    </p>
+    <p class="det">Email</p>
+    <p class="det1">
+       <a>designtrix@rmkec.ac.in</a>
+    </p>
+    </div>
+     
+</div>
+
+<div class="post">
+  <center><img src="po.jpg"></center>
+</div>
+
+
+<footer class="footer" style="opacity: 0.75;">
+    
+    <ul class="social-icon">
+      
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/rmkec-csd-a27701237/">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/designtrix24?utm_source=qr&igsh=MTcwdTc1ZzNuZG94eQ==">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <p>&copy; DesignTrix'24 | All Rights Reserved</p>
+  </footer>
+  
+
+  
+</section>
+</section>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+   (function($){
+  var canvas = $('#bg').children('canvas'),
+    background = canvas[0],
+    foreground1 = canvas[1],
+    foreground2 = canvas[2],
+    config = {
+      circle: {
+        amount: 18,
+        layer: 3,
+        color: [157, 97, 207],
+        alpha: 0.3
+      },
+      line: {
+        amount: 12,
+        layer: 3,
+        color: [255, 255, 255],
+        alpha: 0.3
+      },
+      speed: 0.5,
+      angle: 20
+    };
+
+  if (background.getContext){
+    var bctx = background.getContext('2d'),
+      fctx1 = foreground1.getContext('2d'),
+      fctx2 = foreground2.getContext('2d'),
+      M = window.Math, // Cached Math
+      degree = config.angle/360*M.PI*2,
+      circles = [],
+      lines = [],
+      wWidth, wHeight, timer;
+    
+    requestAnimationFrame = window.requestAnimationFrame || 
+      window.mozRequestAnimationFrame ||
+      window.webkitRequestAnimationFrame ||
+      window.msRequestAnimationFrame ||
+      window.oRequestAnimationFrame ||
+      function(callback, element) { setTimeout(callback, 1000 / 60); };
+
+    cancelAnimationFrame = window.cancelAnimationFrame ||
+      window.mozCancelAnimationFrame ||
+      window.webkitCancelAnimationFrame ||
+      window.msCancelAnimationFrame ||
+      window.oCancelAnimationFrame ||
+      clearTimeout;
+
+    var setCanvasHeight = function(){
+      wWidth = $(window).width();
+      wHeight = $(window).height(),
+
+      canvas.each(function(){
+        this.width = wWidth;
+        this.height = wHeight;
+      });
+    };
+
+    var drawCircle = function(x, y, radius, color, alpha){
+      var gradient = fctx1.createRadialGradient(x, y, radius, x, y, 0);
+      gradient.addColorStop(0, 'rgba('+color[0]+','+color[1]+','+color[2]+','+alpha+')');
+      gradient.addColorStop(1, 'rgba('+color[0]+','+color[1]+','+color[2]+','+(alpha-0.1)+')');
+
+      fctx1.beginPath();
+      fctx1.arc(x, y, radius, 0, M.PI*2, true);
+      fctx1.fillStyle = gradient;
+      fctx1.fill();
+    };
+
+    var drawLine = function(x, y, width, color, alpha){
+      var endX = x+M.sin(degree)*width,
+        endY = y-M.cos(degree)*width,
+        gradient = fctx2.createLinearGradient(x, y, endX, endY);
+      gradient.addColorStop(0, 'rgba('+color[0]+','+color[1]+','+color[2]+','+alpha+')');
+      gradient.addColorStop(1, 'rgba('+color[0]+','+color[1]+','+color[2]+','+(alpha-0.1)+')');
+
+      fctx2.beginPath();
+      fctx2.moveTo(x, y);
+      fctx2.lineTo(endX, endY);
+      fctx2.lineWidth = 3;
+      fctx2.lineCap = 'round';
+      fctx2.strokeStyle = gradient;
+      fctx2.stroke();
+    };
+
+    var drawBack = function(){
+      bctx.clearRect(0, 0, wWidth, wHeight);
+
+      var gradient = [];
+      
+      gradient[0] = bctx.createRadialGradient(wWidth*0.3, wHeight*0.1, 0, wWidth*0.3, wHeight*0.1, wWidth*0.9);
+      gradient[0].addColorStop(0, 'rgba(30,16,51)');//
+    
+
+      bctx.translate(wWidth, 0);
+      bctx.scale(-1,1);
+      bctx.beginPath();
+      bctx.fillStyle = gradient[0];
+      bctx.fillRect(0, 0, wWidth, wHeight);
+
+   
+    };
+
+    var animate = function(){
+      var sin = M.sin(degree),
+        cos = M.cos(degree);
+
+      if (config.circle.amount > 0 && config.circle.layer > 0){
+        fctx1.clearRect(0, 0, wWidth, wHeight);
+        for (var i=0, len = circles.length; i<len; i++){
+          var item = circles[i],
+            x = item.x,
+            y = item.y,
+            radius = item.radius,
+            speed = item.speed;
+
+          if (x > wWidth + radius){
+            x = -radius;
+          } else if (x < -radius){
+            x = wWidth + radius
+          } else {
+            x += sin*speed;
+          }
+
+          if (y > wHeight + radius){
+            y = -radius;
+          } else if (y < -radius){
+            y = wHeight + radius;
+          } else {
+            y -= cos*speed;
+          }
+
+          item.x = x;
+          item.y = y;
+          drawCircle(x, y, radius, item.color, item.alpha);
+        }
+      }
+
+      if (config.line.amount > 0 && config.line.layer > 0){
+        fctx2.clearRect(0, 0, wWidth, wHeight);
+        for (var j=0, len = lines.length; j<len; j++){
+          var item = lines[j],
+            x = item.x,
+            y = item.y,
+            width = item.width,
+            speed = item.speed;
+
+          if (x > wWidth + width * sin){
+            x = -width * sin;
+          } else if (x < -width * sin){
+            x = wWidth + width * sin;
+          } else {
+            x += sin*speed;
+          }
+
+          if (y > wHeight + width * cos){
+            y = -width * cos;
+          } else if (y < -width * cos){
+            y = wHeight + width * cos;
+          } else {
+            y -= cos*speed;
+          }
+          
+          item.x = x;
+          item.y = y;
+          drawLine(x, y, width, item.color, item.alpha);
+        }
+      }
+
+      timer = requestAnimationFrame(animate);
+    };
+
+    var createItem = function(){
+      circles = [];
+      lines = [];
+
+      if (config.circle.amount > 0 && config.circle.layer > 0){
+        for (var i=0; i<config.circle.amount/config.circle.layer; i++){
+          for (var j=0; j<config.circle.layer; j++){
+            circles.push({
+              x: M.random() * wWidth,
+              y: M.random() * wHeight,
+              radius: M.random()*(20+j*5)+(20+j*5),
+              color: config.circle.color,
+              alpha: M.random()*0.2+(config.circle.alpha-j*0.1),
+              speed: config.speed*(1+j*0.5)
+            });
+          }
+        }
+      }
+
+      if (config.line.amount > 0 && config.line.layer > 0){
+        for (var m=0; m<config.line.amount/config.line.layer; m++){
+          for (var n=0; n<config.line.layer; n++){
+            lines.push({
+              x: M.random() * wWidth,
+              y: M.random() * wHeight,
+              width: M.random()*(20+n*5)+(20+n*5),
+              color: config.line.color,
+              alpha: M.random()*0.2+(config.line.alpha-n*0.1),
+              speed: config.speed*(1+n*0.5)
+            });
+          }
+        }
+      }
+
+      cancelAnimationFrame(timer);
+      timer = requestAnimationFrame(animate);
+      drawBack();
+    };
+
+    $(document).ready(function(){
+      setCanvasHeight();
+      createItem();
+    });
+    $(window).resize(function(){
+      setCanvasHeight();
+      createItem();
+    });
+  }
+})(jQuery);
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+         offset: 200,
+  duration: 1000,
+    });
+  </script>
+    <script src="script.js"></script>
+</body>
+
+  
+</html>
